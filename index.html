@@ -9,7 +9,7 @@
         <title>Front End Code Challange</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link href="css/main.css" type="text/css" rel="stylesheet" />
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
     <body>
@@ -18,12 +18,22 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <p>Element1</p>
-        <p>Element2</p>
-        <p>Element3</p>
-        <p>Element4</p>
-        <p>Element5</p>
+        <h1>Front End Code Challenge</h1>
+        <h2>ToDo</h2>
+        <section class="textBox">
+          <input type="text">
+        </section>
+        <section>
+          <button id="add">Add</button>
+          <button id="remove">Remove</button>
+          <button id="edit">Edit</button>
+        </section>
+        <section>
+          <p>List of toDo </p>
+          <ol>
+            <li></li>
+          </ol>
+        </section>
         <a href="google.com">Google.com</a>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -38,5 +48,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="interactions.js"></script>
     </body>
 </html>

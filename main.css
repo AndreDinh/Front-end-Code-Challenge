@@ -1,0 +1,6 @@
+.textbox{
+  maxlength: 1000px;
+}
+body{
+  background-color: gray;
+}
