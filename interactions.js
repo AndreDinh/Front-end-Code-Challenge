@@ -2,12 +2,11 @@ $(function() {
   $('#add').on('click', function(e) {
     e.preventDefault();
     var newText = $('input:text').val();
-    $('li:last').after('<li>' + newText + '</li>');
-    $textInput.val('');
+    $('ol').append('<li>'+newText+'</li>');
 
   });
-  $('li').on('click', function() {
-    (this).remove();
+  $('body').on('click','li', function() {
+     $(this).closest('li').remove();
   });
 
 });
